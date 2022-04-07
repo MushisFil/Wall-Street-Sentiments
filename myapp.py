@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-from msilib.schema import Component
 from statistics import mode
 import yfinance as yf
 import streamlit as st
@@ -7,8 +5,6 @@ import pandas as pd
 import numpy as np
 import pickle
 import requests
-from pandas import json_normalize
-import streamlit.components.v1 as components
 
 import base64
 
